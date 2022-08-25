@@ -1,0 +1,4213 @@
+USE GoDigital;
+
+/* CREATE TABLE */
+CREATE TABLE vendor_data(
+VENDOR_ID VARCHAR(100),
+VENDOR_NAME VARCHAR(100),
+ADDRESS_LINE1 VARCHAR(100),
+ADDRESS_LINE2 VARCHAR(100),
+CITY VARCHAR(100),
+STATE VARCHAR(100),
+POSTAL_CODE VARCHAR(100)
+);
+
+/* INSERT QUERY NO: 1 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00001', '"King', ' Proctor and Jones"', '2027 North Shannon Drive', '#5', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 2 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00002', 'Garcia Ltd', '5701 East Shirley Lane', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 3 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00003', 'Cherry LLC', '1217 Cottondale Road', '', 'Montgomery', 'AL', '36109'
+);
+
+/* INSERT QUERY NO: 4 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00004', 'Mays-Benson', '227 West Montgomery Cross Road', '#736', 'Savannah', 'GA', '31406'
+);
+
+/* INSERT QUERY NO: 5 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00005', 'Wilson PLC', '23 North Hill Street', '', 'Nashville', 'TN', '37210'
+);
+
+/* INSERT QUERY NO: 6 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00006', 'Wallace Inc', '6324 Moore Circle', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 7 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00007', '"Alexander', ' Huynh and Hall"', '9 Thomas Street', '', 'Ashland', 'MA'
+);
+
+/* INSERT QUERY NO: 8 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00008', '"Young', ' Williams and Pope"', '1497 Greenbrier Road', '', 'West Sacramento', 'CA'
+);
+
+/* INSERT QUERY NO: 9 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00009', '"Flores', ' Haas and Fox"', '7912 Depew Street', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 10 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00010', 'Mcclure Ltd', '243 Kentucky Avenue', '', 'Pasadena', 'MD', '21122'
+);
+
+/* INSERT QUERY NO: 11 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00011', 'Morton LLC', '218 Turtle Cove', '', 'Panama City Beach', 'FL', '32413'
+);
+
+/* INSERT QUERY NO: 12 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00012', '"Robertson', ' Perkins and Walton"', '5029 Montclair Drive', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 13 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00013', 'Thomas Group', '2269 Eastern Boulevard', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 14 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00014', 'Smith-Murphy', '618 Ava Circle Northeast', '', 'Washington', 'DC', '20017'
+);
+
+/* INSERT QUERY NO: 15 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00015', 'Parker-Blake', '3704 Hughes Road', '', 'Louisville', 'KY', '40207'
+);
+
+/* INSERT QUERY NO: 16 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00016', 'Navarro PLC', '5856 Parfet Court', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 17 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00017', 'Reese Ltd', '302 Mcmillin Street', '', 'Nashville', 'TN', '37203'
+);
+
+/* INSERT QUERY NO: 18 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00018', 'Bradley Ltd', '4510 Eastern Avenue Northeast', '', 'Washington', 'DC', '20018'
+);
+
+/* INSERT QUERY NO: 19 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00019', 'Wells-Hooper', '6521 North 65th Avenue', '#1D', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 20 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00020', '"Hamilton', ' Alexander and Wilkins"', '328 17th Street', '', 'Paso Robles', 'CA'
+);
+
+/* INSERT QUERY NO: 21 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00021', '"Willis', ' Griffin and Olsen"', '3373 Runnymede Place Northwest', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 22 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00022', 'Paul Group', '18330 North 79th Avenue', '#3155', 'Glendale', 'AZ', '85308'
+);
+
+/* INSERT QUERY NO: 23 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00023', 'Mckinney-Campbell', '8219 Minor Lane', '#9', 'Louisville', 'KY', '40219'
+);
+
+/* INSERT QUERY NO: 24 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00024', 'Rodriguez PLC', '5556 West Northview Avenue', '', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 25 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00025', 'Wright Group', '3231 North Kings Cross', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 26 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00026', 'Bray PLC', '736 Middle Turnpike East', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 27 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00027', '"Bennett', ' Padilla and Williams"', '4024 Northwest 16th Street', '', 'Oklahoma City', 'OK'
+);
+
+/* INSERT QUERY NO: 28 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00028', '"Hawkins', ' Hernandez and Carter"', '38676 Greenwich Circle', '', 'Fremont', 'CA'
+);
+
+/* INSERT QUERY NO: 29 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00029', 'Grant-Carter', '4439 Gale Street', '', 'Livermore', 'CA', '94550'
+);
+
+/* INSERT QUERY NO: 30 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00030', 'Smith Inc', '38 Renwick Road', '', 'Melrose', 'MA', '02176'
+);
+
+/* INSERT QUERY NO: 31 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00031', 'Johnson Ltd', '2619 North Quality Lane', '#315', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 32 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00032', '"Horne', ' Hinton and Lee"', '1516 Ringe Drive', '', 'Severn', 'MD'
+);
+
+/* INSERT QUERY NO: 33 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00033', 'Hooper-Garrett', '1522 South 36th Street', '', 'Louisville', 'KY', '40211'
+);
+
+/* INSERT QUERY NO: 34 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00034', 'Davis and Sons', '1079 East Kentucky Street', '', 'Louisville', 'KY', '40204'
+);
+
+/* INSERT QUERY NO: 35 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00035', 'Dixon Group', '841 Whittier Hill Road', '', '', 'VT', '05647'
+);
+
+/* INSERT QUERY NO: 36 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00036', '"Bryant', ' Murray and Lee"', '4075 North Cadillac Drive', '#2', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 37 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00037', 'Schmitt-Johnson', '3901 Old Seward Highway', '#STE 000016', 'Anchorage', 'AK', '99503'
+);
+
+/* INSERT QUERY NO: 38 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00038', 'Hoover and Sons', '1430 South Gay Avenue', '', 'Panama City', 'FL', '32404'
+);
+
+/* INSERT QUERY NO: 39 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00039', 'Thomas and Sons', '85 West Seymeria Drive', '', 'Beverly Hills', 'FL', '34465'
+);
+
+/* INSERT QUERY NO: 40 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00040', 'Reynolds-Tucker', '46 Lilac Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 41 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00041', 'Miller-Hall', '8569 Vermont 9', '', 'Woodford', 'VT', '05201'
+);
+
+/* INSERT QUERY NO: 42 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00042', 'Armstrong-Summers', '2 Addison Place', '', 'Bloomingdale', 'GA', '31302'
+);
+
+/* INSERT QUERY NO: 43 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00043', 'Poole Ltd', '20097 Butterfield Drive', '', 'Castro Valley', 'CA', '94546'
+);
+
+/* INSERT QUERY NO: 44 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00044', '"Garza', ' Giles and Palmer"', '7509 Linda Lane', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 45 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00045', 'Bell PLC', '17480 Beaujolais Circle', '', 'Anchorage', 'AK', '99577'
+);
+
+/* INSERT QUERY NO: 46 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00046', 'Anderson Inc', '324 East Drive', '', 'Montgomery', 'AL', '36113'
+);
+
+/* INSERT QUERY NO: 47 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00047', 'Solis-Morales', '1407 Walden Court', '', 'Crofton', 'MD', '21114'
+);
+
+/* INSERT QUERY NO: 48 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00048', '"Cooke', ' Wallace and Perry"', '5801 South Watterson Trail', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 49 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00049', 'Rose Ltd', '1123 Glenwood Avenue', '', 'Nashville', 'TN', '37204'
+);
+
+/* INSERT QUERY NO: 50 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00050', '"Rivera', ' Johnson and Drake"', '243 New State Road', 'A-D', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 51 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00051', 'Roberts-Garcia', '6624 Strawberry Lane', '', 'Louisville', 'KY', '40214'
+);
+
+/* INSERT QUERY NO: 52 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00052', 'Garcia-Brown', '124 Rod Key Street', '', 'Lyndon', 'VT', '05851'
+);
+
+/* INSERT QUERY NO: 53 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00053', 'Kelly-Mosley', '441 Merritt Avenue', '', 'Oakland', 'CA', '94610'
+);
+
+/* INSERT QUERY NO: 54 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00054', '"Brown', ' Johnston and Anderson"', '1 Portsmouth Road', '', 'Piedmont', 'CA'
+);
+
+/* INSERT QUERY NO: 55 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00055', '"Morris', ' Patton and Rodriguez"', '8521 Crystal Street', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 56 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00056', '"Russell', ' Mills and Calderon"', '1823 Dinger Road', '', 'Annapolis', 'MD'
+);
+
+/* INSERT QUERY NO: 57 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00057', 'Mckinney-Riley', '1010 10th Street Northeast', '', 'Washington', 'DC', '20002'
+);
+
+/* INSERT QUERY NO: 58 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00058', 'Estrada PLC', '3 Mad Anthony Lane', '', 'Savannah', 'GA', '31411'
+);
+
+/* INSERT QUERY NO: 59 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00059', '"Long', ' Cooper and Vance"', '16502 South Main Street', '#5', 'Gardena', 'CA'
+);
+
+/* INSERT QUERY NO: 60 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00060', '"Taylor', ' Holt and Stout"', '19 Heritage', '', 'Oakland', 'CA'
+);
+
+/* INSERT QUERY NO: 61 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00061', 'Green Ltd', '165 Quincy Shore Drive', '#C27', 'Quincy', 'MA', '02171'
+);
+
+/* INSERT QUERY NO: 62 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00062', 'Ramos Ltd', '7728 Twin Oaks Road', '', 'Severn', 'MD', '21144'
+);
+
+/* INSERT QUERY NO: 63 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00063', 'Lowe-Wilson', '5630 Silverado Way', '#STE A8', 'Anchorage', 'AK', '99518'
+);
+
+/* INSERT QUERY NO: 64 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00064', 'Hill Ltd', '712 Southwest 1st Street', '', 'Moore', 'OK', '73160'
+);
+
+/* INSERT QUERY NO: 65 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00065', 'Whitehead-Roberson', '6624 Strawberry Lane', '', 'Louisville', 'KY', '40214'
+);
+
+/* INSERT QUERY NO: 66 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00066', 'Hart-Carpenter', '266 South J Street', '', 'Livermore', 'CA', '94550'
+);
+
+/* INSERT QUERY NO: 67 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00067', 'Weaver-Ellis', '8820 Culebra Street', '', 'Arvada', 'CO', '80007'
+);
+
+/* INSERT QUERY NO: 68 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00068', 'Moore Group', '13583 West 68th Avenue', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 69 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00069', '"Escobar', ' Fields and Moran"', '1015 Castle Road', '', 'Edmond', 'OK'
+);
+
+/* INSERT QUERY NO: 70 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00070', 'Graves and Sons', '219 Bidwell Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 71 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00071', 'Martinez-Thomas', '3203 US Highway 98', 'A', 'Mexico Beach', 'FL', '32456'
+);
+
+/* INSERT QUERY NO: 72 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00072', 'Thompson-Wilson', '7711 North 51st Avenue', '#1180', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 73 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00073', 'Griffin-Shaw', '125 Summer Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 74 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00074', 'Fox-Anderson', '169 Avenida Drive', 'M', 'Berkeley', 'CA', '94708'
+);
+
+/* INSERT QUERY NO: 75 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00075', 'Blackwell-Foster', '3609 Meadow Drive', '', 'Nashville', 'TN', '37215'
+);
+
+/* INSERT QUERY NO: 76 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00076', '"Schaefer', ' Paul and Ayala"', '4300 Kansas Avenue Northwest', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 77 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00077', 'Bartlett-Winters', '113 Dove Lane', '', 'Savannah', 'GA', '31406'
+);
+
+/* INSERT QUERY NO: 78 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00078', 'Young Ltd', '835 Shiloh Court', '', 'Redding', 'CA', '96003'
+);
+
+/* INSERT QUERY NO: 79 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00079', 'Lopez-Wilson', '809 Blue Ridge Drive', '', 'Edmond', 'OK', '73003'
+);
+
+/* INSERT QUERY NO: 80 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00080', 'Cooper Ltd', '595 West 15th Street', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 81 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00081', 'Perez-Richards', '8704 Bayberry Place', '', 'Plantation', 'KY', '40242'
+);
+
+/* INSERT QUERY NO: 82 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00082', 'Barnes PLC', '2409 Park Street', '', 'Selma', 'CA', '93662'
+);
+
+/* INSERT QUERY NO: 83 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00083', '"Kennedy', ' Benjamin and Young"', '1217 Cottondale Road', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 84 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00084', 'Smith-Schwartz', '1520 H Street Northwest', '', 'Washington', 'DC', '20006'
+);
+
+/* INSERT QUERY NO: 85 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00085', '"Pratt', ' Jenkins and Willis"', '400 D Street', '#STE 1B', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 86 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00086', '"Guerrero', ' Norman and Baker"', '55 Russells Mills Road', '', 'Dartmouth', 'MA'
+);
+
+/* INSERT QUERY NO: 87 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00087', 'Davis PLC', '2130 Loren Circle', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 88 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00088', '"Richards', ' Yates and Rich"', '8726 Downey Road', '', 'Severn', 'MD'
+);
+
+/* INSERT QUERY NO: 89 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00089', 'Miller-Schmidt', '119 Redwood Road', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 90 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00090', 'Harris-Joyce', '2222 Martin Luther King Junior Boulevard', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 91 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00091', '"Hatfield', ' Jones and Jensen"', '2A Cleveland Park Rd', '', 'Freetown', 'MA'
+);
+
+/* INSERT QUERY NO: 92 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00092', 'Knapp-Thornton', '625 West Main Street', '', 'Moore', 'OK', '73160'
+);
+
+/* INSERT QUERY NO: 93 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00093', 'Mullins-Ramsey', '1345 G Street Southeast', '', 'Washington', 'DC', '20003'
+);
+
+/* INSERT QUERY NO: 94 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00094', 'Payne-Smith', '334 North Cove Boulevard', '', 'Panama City', 'FL', '32401'
+);
+
+/* INSERT QUERY NO: 95 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00095', 'Ramsey Group', '4331 Foeburn Lane', '', 'Louisville', 'KY', '40207'
+);
+
+/* INSERT QUERY NO: 96 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00096', 'Villanueva Ltd', '7256 West 84th Way', '#918', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 97 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00097', '"Mitchell', ' Jackson and Norris"', '2315 Kezey Court', '', 'Crofton', 'MD'
+);
+
+/* INSERT QUERY NO: 98 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00098', 'Rodriguez Inc', '1641 Kramer Street Northeast', '', 'Washington', 'DC', '20002'
+);
+
+/* INSERT QUERY NO: 99 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00099', '"Welch', ' Keller and Hicks"', '1820 22nd Street Southeast', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 100 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00100', 'Lamb-Campbell', '295 Townes Drive', '', 'Nashville', 'TN', '37211'
+);
+
+/* INSERT QUERY NO: 101 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00101', 'Walker Group', '4216 Winter Lake Drive', '', 'Louisville', 'KY', '40272'
+);
+
+/* INSERT QUERY NO: 102 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00102', 'Padilla-Allen', '422 Richmond Street', '', 'El Cerrito', 'CA', '94530'
+);
+
+/* INSERT QUERY NO: 103 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00103', 'Harris LLC', '3325 Dix Street Northeast', '', 'Washington', 'DC', '20019'
+);
+
+/* INSERT QUERY NO: 104 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00104', 'Reese-Mckinney', '20 Garfield Street', '', 'Needham', 'MA', '02492'
+);
+
+/* INSERT QUERY NO: 105 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00105', '"Sanchez', ' Jensen and Carter"', '5396 North Reese Avenue', '', 'Fresno', 'CA'
+);
+
+/* INSERT QUERY NO: 106 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00106', 'Gilbert PLC', '23 Cove Drive', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 107 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00107', '"Kaiser', ' Sanford and Lopez"', '7529 West 72nd Avenue', '#4', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 108 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00108', 'Pham Ltd', '23 Cove Drive', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 109 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00109', 'Hudson PLC', '302 Black Sky Lane', '', 'Pasadena', 'MD', '21122'
+);
+
+/* INSERT QUERY NO: 110 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00110', 'Sanchez-Browning', '11150 Sun Valley Drive', '', 'Oakland', 'CA', '94605'
+);
+
+/* INSERT QUERY NO: 111 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00111', '"Callahan', ' Ponce and Joyce"', '112 Mallard Drive', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 112 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00112', '"Sellers', ' Thompson and Mcdonald"', '7202 Jump Street', '', 'Youngstown', 'FL'
+);
+
+/* INSERT QUERY NO: 113 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00113', 'Walker PLC', '89 Barrensdale Drive', '', 'Severna Park', 'MD', '21146'
+);
+
+/* INSERT QUERY NO: 114 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00114', 'Mayo-Green', '12245 West 71st Place', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 115 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00115', '"King', ' Novak and Perez"', '9008 Grayson Grove Court', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 116 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00116', 'Smith-Carpenter', '1623 Mines Road', '', 'Lowell', 'VT', '05847'
+);
+
+/* INSERT QUERY NO: 117 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00117', '"Brown', ' Baker and Lucas"', '19448 Currant Drive', '', 'Edmond', 'OK'
+);
+
+/* INSERT QUERY NO: 118 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00118', 'Davis-Walker', '600 West North Street', '#D2', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 119 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00119', '"Miller', ' Patel and Anderson"', '1129 I Street', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 120 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00120', 'Cunningham-Harrison', '5624 Oakes Drive', '', 'Brentwood', 'TN', '37027'
+);
+
+/* INSERT QUERY NO: 121 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00121', 'Watson-Hendrix', '711 Parker Street', '', 'East Longmeadow', 'MA', '01028'
+);
+
+/* INSERT QUERY NO: 122 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00122', 'Valentine Inc', '9222 Sandra Grace Road', '', 'Southport', 'FL', '32409'
+);
+
+/* INSERT QUERY NO: 123 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00123', '"Ramos', ' Anderson and Mejia"', '1452 55th Avenue', 'B', 'Oakland', 'CA'
+);
+
+/* INSERT QUERY NO: 124 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00124', 'Taylor-Bailey', '1209 Meehan Road', '', '', 'VT', '05443'
+);
+
+/* INSERT QUERY NO: 125 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00125', 'Thompson Inc', '2504 Longest Avenue', '', 'Louisville', 'KY', '40204'
+);
+
+/* INSERT QUERY NO: 126 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00126', 'Ward Inc', '112 Walnut Street', '', 'Reading', 'MA', '01867'
+);
+
+/* INSERT QUERY NO: 127 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00127', 'Sanders-Irwin', '1801 Dodge Trail', '', 'Edmond', 'OK', '73003'
+);
+
+/* INSERT QUERY NO: 128 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00128', 'Tucker Inc', '607 Trails End Road', '', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 129 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00129', '"Norris', ' Arnold and Young"', '57413 Taku Avenue', '', 'Homer', 'AK'
+);
+
+/* INSERT QUERY NO: 130 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00130', 'Hernandez Group', '4709 Blagden Terrace Northwest', '', 'Washington', 'DC', '20011'
+);
+
+/* INSERT QUERY NO: 131 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00131', 'Cowan-Sanders', '24647 Patricia Court', '', 'Hayward', 'CA', '94541'
+);
+
+/* INSERT QUERY NO: 132 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00132', 'Gregory and Sons', '800 Quacco Road', '#3', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 133 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00133', 'Hays-Rose', '6040 West Kings Avenue', '', 'Glendale', 'AZ', '85306'
+);
+
+/* INSERT QUERY NO: 134 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00134', 'Miller Ltd', '1711 Lore Road', '#APT 000106', 'Anchorage', 'AK', '99507'
+);
+
+/* INSERT QUERY NO: 135 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00135', 'Shields-Bush', '740 East 34th Street', '', 'Savannah', 'GA', '31401'
+);
+
+/* INSERT QUERY NO: 136 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00136', '"Hall', ' Andersen and Williamson"', '7841 North 59th Lane', '#G37', 'Glendale', 'AZ'
+);
+
+/* INSERT QUERY NO: 137 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00137', '"Johnson', ' Cook and Harrington"', '4 Chamois Court', '', 'Pooler', 'GA'
+);
+
+/* INSERT QUERY NO: 138 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00138', 'Hayden Inc', '210 Seaman', '', 'McCrory', 'AR', '72101'
+);
+
+/* INSERT QUERY NO: 139 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00139', 'Kim Ltd', '6452 El Camino Real', '', 'Atascadero', 'CA', '93422'
+);
+
+/* INSERT QUERY NO: 140 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00140', 'Horne Inc', '653 Vermont 12', '', 'Hartland', 'VT', '05048'
+);
+
+/* INSERT QUERY NO: 141 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00141', 'Holder-Robinson', '1820 Scenic Avenue', '', 'Berkeley', 'CA', '94709'
+);
+
+/* INSERT QUERY NO: 142 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00142', 'Rice-Perry', '841 Whittier Hill Road', '', '', 'VT', '05647'
+);
+
+/* INSERT QUERY NO: 143 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00143', 'Henderson Inc', '316 20th Street Northeast', '', 'Washington', 'DC', '20002'
+);
+
+/* INSERT QUERY NO: 144 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00144', 'Knight-Ortiz', '1583 Elberta Court', '', 'Severn', 'MD', '21144'
+);
+
+/* INSERT QUERY NO: 145 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00145', 'Martin-Meadows', '620 Veta Avenue', '', 'Pueblo', 'CO', '81004'
+);
+
+/* INSERT QUERY NO: 146 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00146', '"Pope', ' Becker and Peters"', '72 Salmon Road', '', 'Alameda', 'CA'
+);
+
+/* INSERT QUERY NO: 147 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00147', '"Jones', ' Robinson and Miller"', '516 Southwest 60th Terrace', '', 'Oklahoma City', 'OK'
+);
+
+/* INSERT QUERY NO: 148 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00148', 'Hill-Thomas', '6534 Benton Circle', '', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 149 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00149', 'Bullock-Henry', '327 Fairway Boulevard', '', 'Panama City Beach', 'FL', '32407'
+);
+
+/* INSERT QUERY NO: 150 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00150', 'Moreno LLC', '1261 Sioux Terrace', '', 'Nashville', 'TN', '37115'
+);
+
+/* INSERT QUERY NO: 151 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00151', 'Jones Group', '6029 Wright Street', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 152 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00152', 'Morris-Howe', '200 Pheasant Avenue', '#103', 'Louisville', 'KY', '40118'
+);
+
+/* INSERT QUERY NO: 153 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00153', '"Payne', ' Johnson and Cox"', '4728 Rockland Trail', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 154 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00154', 'Byrd-Richards', '605 Main Street', '', 'Watertown', 'MA', '02472'
+);
+
+/* INSERT QUERY NO: 155 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00155', 'Reyes and Sons', '115 Maple Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 156 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00156', 'Daniels-Camacho', '5814 Carriage Brook Road', '', 'Montgomery', 'AL', '36116'
+);
+
+/* INSERT QUERY NO: 157 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00157', 'Thompson Ltd', '2248 South Sutherland Drive', '', 'Montgomery', 'AL', '36116'
+);
+
+/* INSERT QUERY NO: 158 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00158', 'Nguyen PLC', '4700 10th Street Northeast', '', 'Washington', 'DC', '20017'
+);
+
+/* INSERT QUERY NO: 159 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00159', 'Warren-Brandt', '332 Concord Avenue', '', 'Cambridge', 'MA', '02138'
+);
+
+/* INSERT QUERY NO: 160 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00160', '"Ford', ' Adams and Rocha"', '3810 Camp Ground Road', '#8', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 161 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00161', 'Vasquez-Payne', '240 Lynwood Drive', '', 'Montgomery', 'AL', '36105'
+);
+
+/* INSERT QUERY NO: 162 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00162', '"Kerr', ' Gutierrez and Dennis"', '24 Haven Drive', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 163 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00163', 'Foster-Sanchez', '4255 Tanager Common', '', 'Fremont', 'CA', '94555'
+);
+
+/* INSERT QUERY NO: 164 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00164', 'Perkins Group', '369 Ruth Avenue', '', 'Mountain View', 'CA', '94043'
+);
+
+/* INSERT QUERY NO: 165 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00165', '"James', ' Patel and Cummings"', '1515 Northwest 19th Street', '', 'Oklahoma City', 'OK'
+);
+
+/* INSERT QUERY NO: 166 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00166', 'Nelson-Russell', '2500 Snowdoun Chambers Road', '', 'Montgomery', 'AL', '36105'
+);
+
+/* INSERT QUERY NO: 167 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00167', 'Diaz Group', '5385 Iris Street', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 168 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00168', '"Miller', ' Bryant and Vega"', '4050 Lake Otis Parkway', '#STE 000102', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 169 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00169', 'Hicks Group', '3384 North Southridge Drive', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 170 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00170', 'Smith-Blake', '8506 Laviento Drive', '', 'Anchorage', 'AK', '99515'
+);
+
+/* INSERT QUERY NO: 171 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00171', '"Franco', ' Watson and Murray"', '4024 Northwest 16th Street', '', 'Oklahoma City', 'OK'
+);
+
+/* INSERT QUERY NO: 172 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00172', '"Turner', ' Fox and Kemp"', '703 Elizabeth Barcus Way', '', 'Fortuna', 'CA'
+);
+
+/* INSERT QUERY NO: 173 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00173', '"Kaufman', ' Rodriguez and Sharp"', '618 Amberjack Drive', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 174 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00174', 'Garcia-Johnson', '7030 Cotton Blossom Lane', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 175 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00175', '"Stokes', ' Lane and Smith"', '6073 Harlan Street', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 176 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00176', 'Mason-Collins', '8848 North New World Drive', '', 'Glendale', 'AZ', '85302'
+);
+
+/* INSERT QUERY NO: 177 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00177', 'Castillo-Gates', '45 Baldridge Road', '', 'Annapolis', 'MD', '21401'
+);
+
+/* INSERT QUERY NO: 178 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00178', 'Norman and Sons', '46 Sugarloaf Hill Road', '', 'Warren', 'VT', '05674'
+);
+
+/* INSERT QUERY NO: 179 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00179', 'Carter and Sons', '7431 Gilbert Road', '', 'Panama City', 'FL', '32404'
+);
+
+/* INSERT QUERY NO: 180 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00180', 'Cole Group', '12091 Mierkey Road', '', 'Jackson', 'CA', '95642'
+);
+
+/* INSERT QUERY NO: 181 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00181', '"Vargas', ' Bryant and Jackson"', '1010 10th Street Northeast', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 182 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00182', 'Jones Group', '5116 Feys Court', '', 'Louisville', 'KY', '40216'
+);
+
+/* INSERT QUERY NO: 183 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00183', '"Johnson', ' Espinoza and Kelley"', '5311 Chenoweth Park Lane', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 184 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00184', '"Singleton', ' Ramos and White"', '2433 Southwest 36th Street', '', 'Oklahoma City', 'OK'
+);
+
+/* INSERT QUERY NO: 185 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00185', '"Harmon', ' Manning and Bradley"', '1823 Dinger Road', '', 'Annapolis', 'MD'
+);
+
+/* INSERT QUERY NO: 186 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00186', 'Smith PLC', '2314 Marian Bay Circle', '', 'Anchorage', 'AK', '99515'
+);
+
+/* INSERT QUERY NO: 187 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00187', '"Mendoza', ' Moran and Parker"', '6463 Vrain Street', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 188 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00188', '"Miller', ' Miller and Davis"', '3620 Colmar Drive', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 189 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00189', 'Hill LLC', '126 Garth Road', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 190 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00190', 'Short Inc', '8447 West 51st Avenue', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 191 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00191', 'Armstrong-Ramirez', '200 Boulder Road', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 192 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00192', 'Lewis-Campbell', '819 Beazer Lane', '', 'Nashville', 'TN', '37013'
+);
+
+/* INSERT QUERY NO: 193 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00193', 'Hensley-Day', '4 Village Lake Drive', '#4', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 194 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00194', 'Reed LLC', '525 Merrill Lane', '#308', 'Dracut', 'MA', '01826'
+);
+
+/* INSERT QUERY NO: 195 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00195', 'Nichols Inc', '700 Revels Drive', '', 'Nashville', 'TN', '37207'
+);
+
+/* INSERT QUERY NO: 196 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00196', 'Kent-Barrett', '2402 Eastbridge Court', '', 'Louisville', 'KY', '40223'
+);
+
+/* INSERT QUERY NO: 197 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00197', '"Miller', ' Perez and Cannon"', '30 Curtis Road', '#509', 'Milton', 'MA'
+);
+
+/* INSERT QUERY NO: 198 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00198', '"Phillips', ' Mccoy and Miles"', '3483 Canyon Creek Drive', '', 'San Jose', 'CA'
+);
+
+/* INSERT QUERY NO: 199 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00199', 'Moody-Tate', '12800 Saunders Road', '', 'Anchorage', 'AK', '99516'
+);
+
+/* INSERT QUERY NO: 200 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00200', 'Meyer-Stevenson', '10911 Torrington Road', '', 'Louisville', 'KY', '40272'
+);
+
+/* INSERT QUERY NO: 201 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00201', '"Wilkinson', ' Baldwin and Butler"', '12 Saint Andrews Crossover', '', 'Severna Park', 'MD'
+);
+
+/* INSERT QUERY NO: 202 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00202', '"White', ' Mills and Terry"', '4738 Mallard Common', '', 'Fremont', 'CA'
+);
+
+/* INSERT QUERY NO: 203 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00203', 'Smith Ltd', '545 East Muhammad Ali Boulevard', '#103', 'Louisville', 'KY', '40202'
+);
+
+/* INSERT QUERY NO: 204 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00204', 'Ray and Sons', '7703 Laird Street', '', 'Panama City', 'FL', '32408'
+);
+
+/* INSERT QUERY NO: 205 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00205', '"Parker', ' Hamilton and Garrett"', '3652 East Blue Stone Drive', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 206 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00206', '"Carr', ' Smith and Prince"', '33300 Mission Boulevard', '#APT 174', 'Union City', 'CA'
+);
+
+/* INSERT QUERY NO: 207 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00207', 'Allison LLC', '3104 Southwest 46th Street', '', 'Oklahoma City', 'OK', '73119'
+);
+
+/* INSERT QUERY NO: 208 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00208', 'Mcmahon PLC', '7090 West 64th Avenue', '', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 209 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00209', '"Hill', ' Blair and Rice"', '1700 William E Summers III Avenue', '#201', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 210 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00210', 'Ross-Martin', '2 Cockle Shell Road', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 211 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00211', '"Keller', ' Fuentes and Smith"', '82 Queen Court', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 212 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00212', '"Bennett', ' Benjamin and Blankenship"', '815 West Market Street', '#6', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 213 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00213', 'Gonzalez LLC', '6 Oak Street', '', 'Town of Rockingham', 'VT', '05101'
+);
+
+/* INSERT QUERY NO: 214 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00214', '"Mcdowell', ' Mcmillan and Taylor"', '1226 Blossom Circle', '', 'Livermore', 'CA'
+);
+
+/* INSERT QUERY NO: 215 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00215', '"Mooney', ' Nicholson and Martinez"', '1693 Alice Court', '', 'Annapolis', 'MD'
+);
+
+/* INSERT QUERY NO: 216 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00216', 'Smith-Zimmerman', '5600 Carmichael Road', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 217 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00217', 'Johnson LLC', '712 Wilsonwood Place', '', 'Nashville', 'TN', '37206'
+);
+
+/* INSERT QUERY NO: 218 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00218', '"Brewer', ' Hinton and Forbes"', '1267 Martin Street', '#203', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 219 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00219', '"Sanchez', ' Hammond and Ward"', '218 Oleander Drive', '', 'Panama City Beach', 'FL'
+);
+
+/* INSERT QUERY NO: 220 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00220', 'Gardner Group', '2504 Longest Avenue', '', 'Louisville', 'KY', '40204'
+);
+
+/* INSERT QUERY NO: 221 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00221', 'Moore-Bradley', '3 Kimball Street', '', 'Marblehead', 'MA', '01945'
+);
+
+/* INSERT QUERY NO: 222 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00222', 'Webb-Henderson', '2209 East Manor Drive', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 223 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00223', 'James-Davis', '368 Winthrop Court', '', 'Montgomery', 'AL', '36104'
+);
+
+/* INSERT QUERY NO: 224 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00224', '"Davis', ' Terrell and Galloway"', '4503 North Council Road', '', 'Bethany', 'OK'
+);
+
+/* INSERT QUERY NO: 225 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00225', '"Martinez', ' Jones and Frederick"', '2502 Adrienne Way', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 226 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00226', 'Ortega-Michael', '2 Misty Marsh Drive', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 227 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00227', 'Salazar PLC', '7981 Robinson Way', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 228 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00228', '"Bell', ' Hernandez and Reynolds"', '19448 Currant Drive', '', 'Edmond', 'OK'
+);
+
+/* INSERT QUERY NO: 229 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00229', '"Contreras', ' Harris and Green"', '2741 31st Place Northeast', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 230 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00230', '"Diaz', ' George and Allen"', '44 Downey Drive', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 231 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00231', 'Kaufman LLC', '3819 Vineyard Avenue', '#59', 'Pleasanton', 'CA', '94566'
+);
+
+/* INSERT QUERY NO: 232 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00232', '"Myers', ' Hayes and Jones"', '45 Heathcote Circle', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 233 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00233', 'Cardenas-Mcknight', '7420 Bearfoot Circle', '#APT 000003', 'Anchorage', 'AK', '99502'
+);
+
+/* INSERT QUERY NO: 234 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00234', 'Herrera LLC', '1514 Wyoming Avenue', '', 'Lynn Haven', 'FL', '32444'
+);
+
+/* INSERT QUERY NO: 235 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00235', 'Jacobs-Howell', '131 Westerly Street', '', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 236 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00236', 'Davis PLC', '11 Proctor Circle', '', 'Peabody', 'MA', '01960'
+);
+
+/* INSERT QUERY NO: 237 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00237', 'Hernandez Inc', '351 Porter Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 238 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00238', 'Moore Inc', '2643 North Sierra Avenue', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 239 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00239', 'Brooks-Bowen', '4408 Northwest 55th Street', '', 'Oklahoma City', 'OK', '73112'
+);
+
+/* INSERT QUERY NO: 240 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00240', '"Mcdonald', ' Beasley and Knox"', '132 Tensaw Road', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 241 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00241', 'Fuentes-Wells', '644 Byam Road', '', 'Bethel', 'VT', '05032'
+);
+
+/* INSERT QUERY NO: 242 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00242', 'Hurley PLC', '2195 Cantelou Road', '', 'Montgomery', 'AL', '36108'
+);
+
+/* INSERT QUERY NO: 243 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00243', '"Alvarado', ' Garcia and Thomas"', '4253 San Juan Avenue', '', 'Fremont', 'CA'
+);
+
+/* INSERT QUERY NO: 244 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00244', 'Michael LLC', '1641 Kramer Street Northeast', '', 'Washington', 'DC', '20002'
+);
+
+/* INSERT QUERY NO: 245 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00245', 'Roberts Ltd', '78 School Street', '', 'Woburn', 'MA', '01801'
+);
+
+/* INSERT QUERY NO: 246 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00246', '"Fields', ' Bolton and Sullivan"', '39 Tania Drive', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 247 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00247', 'Brown Inc', '11522 Country Spring Court', '', 'Cupertino', 'CA', '95014'
+);
+
+/* INSERT QUERY NO: 248 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00248', 'Beltran Ltd', '534 Turpin Street', '#APT 000001', 'Anchorage', 'AK', '99504'
+);
+
+/* INSERT QUERY NO: 249 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00249', '"Mora', ' Bass and Romero"', '8467 Chase Drive', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 250 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00250', 'Palmer-Mccall', '200 Boulder Road', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 251 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00251', 'Sanchez LLC', '154 Lyness Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 252 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00252', 'Livingston-Martin', '8277 Lamar Place', '', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 253 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00253', '"Palmer', ' Whitehead and Mcdonald"', '10340 West 62nd Place', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 254 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00254', 'Wilson-Kelly', '7513 Lois Street', '', 'Panama City', 'FL', '32404'
+);
+
+/* INSERT QUERY NO: 255 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00255', '"Meadows', ' Wiggins and Lewis"', '50 Winthrop Avenue', '', 'Lawrence', 'MA'
+);
+
+/* INSERT QUERY NO: 256 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00256', 'Barrett and Sons', '42223 Edgewood Street', '', 'Fremont', 'CA', '94538'
+);
+
+/* INSERT QUERY NO: 257 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00257', 'Park-Gallagher', '894 Windmill Park Lane', '', 'Mountain View', 'CA', '94043'
+);
+
+/* INSERT QUERY NO: 258 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00258', 'Rodriguez-Thompson', '5170 Hickory Hollow Parkway', '#935', 'Nashville', 'TN', '37013'
+);
+
+/* INSERT QUERY NO: 259 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00259', 'Jones and Sons', '6398 Jellison Way', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 260 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00260', '"Freeman', ' Branch and Mueller"', '4812 Alton Place Northwest', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 261 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00261', '"Blake', ' Jackson and Scott"', '5631 West Colter Street', '#2129', 'Glendale', 'AZ'
+);
+
+/* INSERT QUERY NO: 262 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00262', 'Lee PLC', '1650 Garland Avenue', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 263 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00263', 'Jones-Banks', '1528 Spruce Street', 'M', 'Berkeley', 'CA', '94709'
+);
+
+/* INSERT QUERY NO: 264 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00264', 'Hancock LLC', '525 Middle Turnpike West', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 265 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00265', 'Sawyer-Pineda', '65 Lowry Road', '', 'Falmouth', 'MA', '02540'
+);
+
+/* INSERT QUERY NO: 266 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00266', 'Avila-Baker', '14 Huntington Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 267 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00267', 'Mercado Inc', '6401 Green Meadow Lane', '', 'Oklahoma City', 'OK', '73132'
+);
+
+/* INSERT QUERY NO: 268 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00268', 'Williams-Robinson', '6225 West Citrus Way', '', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 269 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00269', 'Davies LLC', '404 Summit Oaks Drive', '', 'Nashville', 'TN', '37221'
+);
+
+/* INSERT QUERY NO: 270 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00270', '"Herrera', ' Williams and Fields"', '13213 Spanish Moss Road', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 271 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00271', '"Arnold', ' Harvey and Reynolds"', '231 South Kimbrel Avenue', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 272 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00272', '"Alvarez', ' Heath and Mccarthy"', '8262 Elvaton Road', '', 'Millersville', 'MD'
+);
+
+/* INSERT QUERY NO: 273 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00273', 'Watkins Inc', '6342 West Wheeler Road', '', 'Fayetteville', 'AR', '72704'
+);
+
+/* INSERT QUERY NO: 274 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00274', 'Black-Fuentes', '12 Winter Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 275 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00275', 'Hardin and Sons', '122 40th Avenue North', '', 'Nashville', 'TN', '37209'
+);
+
+/* INSERT QUERY NO: 276 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00276', 'Davis-Ferguson', '704 Crescent Road', '', 'Nashville', 'TN', '37205'
+);
+
+/* INSERT QUERY NO: 277 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00277', 'Baker and Sons', '606 Lincoln Street', '', 'Savannah', 'GA', '31401'
+);
+
+/* INSERT QUERY NO: 278 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00278', '"Garcia', ' Hall and Williams"', '3065 East Pebblestone Drive', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 279 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00279', '"Rodriguez', ' Anderson and Chambers"', '6022 West Alice Avenue', '#3', 'Glendale', 'AZ'
+);
+
+/* INSERT QUERY NO: 280 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00280', 'James-Fowler', '73455 Twentynine Palms Highway', '', 'Twentynine Palms', 'CA', '92277'
+);
+
+/* INSERT QUERY NO: 281 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00281', '"Kemp', ' Harris and Calhoun"', '2001 Van Hoose Drive', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 282 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00282', '"Holmes', ' Bishop and Nunez"', '349 North Sabine Pass Road', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 283 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00283', '"Sosa', ' Pugh and Hughes"', '2209 East Manor Drive', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 284 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00284', 'Thornton and Sons', '2185 Howe Pond Road', '', 'Readsboro', 'VT', '05350'
+);
+
+/* INSERT QUERY NO: 285 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00285', 'Tran-Williams', '235 Brock Bridge Road', '', 'Laurel', 'MD', '20724'
+);
+
+/* INSERT QUERY NO: 286 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00286', '"Smith', ' Clayton and Perez"', '2220 Kirk Avenue', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 287 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00287', 'Thompson Inc', '813 Holt Grove Court', '', 'Nashville', 'TN', '37211'
+);
+
+/* INSERT QUERY NO: 288 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00288', 'Miller-Walter', '287 Lawndale Drive', '', 'Nashville', 'TN', '37211'
+);
+
+/* INSERT QUERY NO: 289 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00289', 'Ochoa-Morris', '6116 West Charter Oak Road', '', 'Glendale', 'AZ', '85304'
+);
+
+/* INSERT QUERY NO: 290 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00290', 'Pierce Group', '9545 West 74th Avenue', '', 'Arvada', 'CO', '80005'
+);
+
+/* INSERT QUERY NO: 291 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00291', 'Davis-Brown', '2703 Woolsey Street', '#R 1', 'Berkeley', 'CA', '94705'
+);
+
+/* INSERT QUERY NO: 292 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00292', 'Wilson and Sons', '21 Longview Bluff Drive East', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 293 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00293', 'Brown Ltd', '594 Putnam Avenue', '#2', 'Cambridge', 'MA', '02139'
+);
+
+/* INSERT QUERY NO: 294 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00294', '"Richardson', ' Alvarado and Pruitt"', '5514 West Wedington Drive', '#3', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 295 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00295', 'Cox-Ward', '4112 Rockdale Street', '', 'Savannah', 'GA', '31405'
+);
+
+/* INSERT QUERY NO: 296 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00296', 'Robinson and Sons', '831 21st Street Northeast', '', 'Washington', 'DC', '20002'
+);
+
+/* INSERT QUERY NO: 297 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00297', 'Wilkins Group', '406 Ashwood Court', '', 'Vacaville', 'CA', '95688'
+);
+
+/* INSERT QUERY NO: 298 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00298', 'Warren-Wilson', '2035 Ninth Street', 'R A', 'Berkeley', 'CA', '94710'
+);
+
+/* INSERT QUERY NO: 299 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00299', 'Ware LLC', '20 Hacker Street', '#3', 'Worcester', 'MA', '01603'
+);
+
+/* INSERT QUERY NO: 300 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00300', 'Quinn Ltd', '4439 Gale Street', '', 'Livermore', 'CA', '94550'
+);
+
+/* INSERT QUERY NO: 301 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00301', '"Sanchez', ' Nichols and Robinson"', '949 South Lawrence Street', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 302 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00302', 'Simpson and Sons', '19 Euston Street', '#1F', 'Brookline', 'MA', '02446'
+);
+
+/* INSERT QUERY NO: 303 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00303', 'Dawson Inc', '2076 North Crossover Road', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 304 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00304', 'Lester LLC', '1601 Algonquin Parkway', '#3', 'Louisville', 'KY', '40210'
+);
+
+/* INSERT QUERY NO: 305 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00305', '"Campbell', ' Maldonado and Mullins"', '2426 East Onyx Trail', '#6', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 306 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00306', 'Hubbard LLC', '9030 Pennington PIace', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 307 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00307', '"Reeves', ' Brown and Burch"', '467 North Mountain Ranch Road', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 308 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00308', 'Bennett-Barrera', '6 Little Country Place', '', 'Savannah', 'GA', '31406'
+);
+
+/* INSERT QUERY NO: 309 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00309', 'Cortez-Mathis', '217 Northeast 1st Street', '', 'Moore', 'OK', '73160'
+);
+
+/* INSERT QUERY NO: 310 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00310', 'Salinas-Ferrell', '2278 North Windswept Lane', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 311 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00311', 'Russell-Perkins', '126 Marjorie Lane', 'C', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 312 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00312', 'Roberts Inc', '10202 North 51st Drive', '', 'Glendale', 'AZ', '85302'
+);
+
+/* INSERT QUERY NO: 313 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00313', 'Jackson PLC', '2809 Rowland Avenue', 'C', 'Thunderbolt', 'GA', '31404'
+);
+
+/* INSERT QUERY NO: 314 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00314', 'Clarke Ltd', '1742 Allerford Drive', '', 'Hanover', 'MD', '21076'
+);
+
+/* INSERT QUERY NO: 315 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00315', 'Hall-Anderson', '1405 East 55th Street', '', 'Savannah', 'GA', '31404'
+);
+
+/* INSERT QUERY NO: 316 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00316', 'Harris-Griffin', '8063 Regency Drive', '', 'Pleasanton', 'CA', '94588'
+);
+
+/* INSERT QUERY NO: 317 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00317', '"Gonzales', ' Collins and Rose"', '1566 Wingate Park Court', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 318 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00318', '"Martinez', ' Mccoy and Herring"', '1693 Alice Court', '', 'Annapolis', 'MD'
+);
+
+/* INSERT QUERY NO: 319 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00319', 'Jones-Hill', '5747 West Missouri Avenue', '#122', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 320 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00320', 'Preston-Graham', '7002 Secrest Court', '', 'Arvada', 'CO', '80007'
+);
+
+/* INSERT QUERY NO: 321 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00321', '"Pearson', ' Harris and Townsend"', '8726 Downey Road', '', 'Severn', 'MD'
+);
+
+/* INSERT QUERY NO: 322 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00322', 'Tanner Inc', '1709 7th Avenue Northwest', '', 'Ardmore', 'OK', '73401'
+);
+
+/* INSERT QUERY NO: 323 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00323', '"Lynn', ' Smith and Nelson"', '68 Hampstead Place', '', 'Athol', 'MA'
+);
+
+/* INSERT QUERY NO: 324 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00324', 'Webb-Gomez', '5611 Kendall Court', '#3', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 325 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00325', 'Sanders-Stark', '642 South 2nd Street', '#608', 'Louisville', 'KY', '40202'
+);
+
+/* INSERT QUERY NO: 326 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00326', 'Stewart Ltd', '1729 Frankford Street Southeast', '', 'Washington', 'DC', '20020'
+);
+
+/* INSERT QUERY NO: 327 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00327', '"Kelly', ' Jones and Barnett"', '474 Merritt Avenue', '', 'Oakland', 'CA'
+);
+
+/* INSERT QUERY NO: 328 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00328', 'Jackson-Solomon', '718 Newhall Drive', '', 'Nashville', 'TN', '37206'
+);
+
+/* INSERT QUERY NO: 329 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00329', 'Smith-Price', '2 Spencer Street', '', 'Lexington', 'MA', '02420'
+);
+
+/* INSERT QUERY NO: 330 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00330', '"Baker', ' Tucker and Anderson"', '406 East Waldburg Street', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 331 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00331', 'Baker LLC', '901 North Lincoln Boulevard', '', 'Oklahoma City', 'OK', '73104'
+);
+
+/* INSERT QUERY NO: 332 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00332', '"Garcia', ' Payne and Kelley"', '560 Penstock Drive', '', 'Grass Valley', 'CA'
+);
+
+/* INSERT QUERY NO: 333 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00333', 'Howard-Richards', '461 Alder Street', '', 'Eureka', 'CA', '95503'
+);
+
+/* INSERT QUERY NO: 334 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00334', '"Lee', ' Richards and Hicks"', '188 Saint Matthews Avenue', '#1', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 335 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00335', 'Mason Ltd', '1870 A Street', '', 'Oroville', 'CA', '95966'
+);
+
+/* INSERT QUERY NO: 336 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00336', '"Anderson', ' Johnson and Kaiser"', '151 Main Street', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 337 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00337', 'Snyder PLC', '11300 Lillian Lane', '', 'Anchorage', 'AK', '99515'
+);
+
+/* INSERT QUERY NO: 338 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00338', 'Peters and Sons', '178 Phillips Road', '', 'Bourne', 'MA', '02532'
+);
+
+/* INSERT QUERY NO: 339 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00339', 'Hickman-Mendoza', '7404 West Crest Lane', '', 'Glendale', 'AZ', '85310'
+);
+
+/* INSERT QUERY NO: 340 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00340', 'Wyatt-Stone', '8 Village Circle', '', 'Randolph', 'VT', '05060'
+);
+
+/* INSERT QUERY NO: 341 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00341', 'Perry-Gray', '46 Lilac Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 342 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00342', 'Rogers-Henry', '565 North Lakeshore Drive', '', 'Panama City Beach', 'FL', '32413'
+);
+
+/* INSERT QUERY NO: 343 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00343', 'Gray-Murray', '3546 Rosa L Parks Avenue', '', 'Montgomery', 'AL', '36105'
+);
+
+/* INSERT QUERY NO: 344 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00344', 'Lewis Ltd', '204 North Holt Street', '', 'Montgomery', 'AL', '36104'
+);
+
+/* INSERT QUERY NO: 345 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00345', 'Schroeder-Bryan', '12039 West 85th Drive', '', 'Arvada', 'CO', '80005'
+);
+
+/* INSERT QUERY NO: 346 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00346', 'Smith-Stewart', '824 Main Street', 'D', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 347 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00347', '"Decker', ' Miller and Gibson"', '244 La Normandy Drive', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 348 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00348', 'Lee and Sons', '4726 West Palmaire Avenue', '', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 349 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00349', 'Martinez and Sons', '341 Oakland Street', '', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 350 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00350', 'King Inc', '6816 West 84th Circle', '#42', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 351 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00351', 'Hunt-Russo', '8505 Waters Avenue', '#66', 'Savannah', 'GA', '31406'
+);
+
+/* INSERT QUERY NO: 352 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00352', 'Thompson-Williams', '88 Pine Valley Road', '', 'Savannah', 'GA', '31404'
+);
+
+/* INSERT QUERY NO: 353 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00353', '"Compton', ' Khan and Cabrera"', '63 Dorchester Street', '#2', 'Worcester', 'MA'
+);
+
+/* INSERT QUERY NO: 354 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00354', 'Stevens-Mills', '802 Madison Street Northwest', '', 'Washington', 'DC', '20011'
+);
+
+/* INSERT QUERY NO: 355 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00355', 'Gonzalez-Hernandez', '343 Daman Drive', '', 'Montgomery', 'AL', '36108'
+);
+
+/* INSERT QUERY NO: 356 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00356', '"Clements', ' Leon and Wright"', '533 Forest Ridge Court', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 357 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00357', 'Best PLC', '58 North U.S.A Drive', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 358 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00358', 'Hernandez PLC', '2224 East Tall Oaks Drive', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 359 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00359', 'Perez PLC', '37 Rushforde Drive', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 360 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00360', 'Smith-Booth', '1123 Ardee Avenue', '', 'Nashville', 'TN', '37216'
+);
+
+/* INSERT QUERY NO: 361 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00361', 'Boyd-Fleming', '9515 West 74th Avenue', '', 'Arvada', 'CO', '80005'
+);
+
+/* INSERT QUERY NO: 362 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00362', '"Andersen', ' Davis and Washington"', '68 Route 66', '', '', 'VT'
+);
+
+/* INSERT QUERY NO: 363 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00363', 'Hamilton-Todd', '64 Roseberry Circle', '', 'Port Wentworth', 'GA', '31407'
+);
+
+/* INSERT QUERY NO: 364 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00364', 'Medina-Wilkinson', '4438 Maine Avenue', '', 'Baldwin Park', 'CA', '91706'
+);
+
+/* INSERT QUERY NO: 365 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00365', 'Jones-Monroe', '5309 Darling Hill Road', '', 'Burke', 'VT', '05871'
+);
+
+/* INSERT QUERY NO: 366 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00366', '"Barnes', ' Mills and Hill"', '376 Whites Road', '', 'Wilmington', 'VT'
+);
+
+/* INSERT QUERY NO: 367 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00367', '"Baker', ' Newman and Graham"', '2 Spencer Street', '', 'Lexington', 'MA'
+);
+
+/* INSERT QUERY NO: 368 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00368', 'Walker-Hines', '824 Main Street', 'D', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 369 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00369', '"Nguyen', ' Rogers and Diaz"', '310 West Trinity Lane', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 370 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00370', 'Hernandez LLC', '1710 Monroe Street Northeast', '', 'Washington', 'DC', '20018'
+);
+
+/* INSERT QUERY NO: 371 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00371', 'Monroe-Charles', '295 Townes Drive', '', 'Nashville', 'TN', '37211'
+);
+
+/* INSERT QUERY NO: 372 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00372', '"Murray', ' Miller and Oliver"', '449 Saratoga Lane', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 373 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00373', '"Martinez', ' Sims and Thomas"', '36360 Beech Place', '', 'Newark', 'CA'
+);
+
+/* INSERT QUERY NO: 374 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00374', 'Young-Kelley', '1040 West 27th Avenue', '#APT 000401', 'Anchorage', 'AK', '99503'
+);
+
+/* INSERT QUERY NO: 375 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00375', '"Ortega', ' Maldonado and Carson"', '14854 Bay View Circle', '', 'Panama City Beach', 'FL'
+);
+
+/* INSERT QUERY NO: 376 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00376', 'Wood LLC', '8404 West Myrtle Avenue', '', 'Glendale', 'AZ', '85305'
+);
+
+/* INSERT QUERY NO: 377 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00377', '"Daniels', ' Waters and Norris"', '3437 Sommerville Drive', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 378 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00378', '"Reed', ' Bartlett and Miles"', '37 East Broad Street', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 379 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00379', 'Stone-Johnson', '4050 Lake Otis Parkway', '#STE 000102', 'Anchorage', 'AK', '99508'
+);
+
+/* INSERT QUERY NO: 380 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00380', 'Cook-Molina', '11 Eclipse Court', '', 'Alameda', 'CA', '94501'
+);
+
+/* INSERT QUERY NO: 381 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00381', 'Massey Ltd', '2622 Martin Luther King Junior Boulevard', '', 'Fayetteville', 'AR', '72704'
+);
+
+/* INSERT QUERY NO: 382 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00382', 'Smith Group', '4667 Benning Road Southeast', '', 'Washington', 'DC', '20019'
+);
+
+/* INSERT QUERY NO: 383 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00383', '"Dawson', ' Taylor and Chavez"', '756 Neponset Street', '', 'Norwood', 'MA'
+);
+
+/* INSERT QUERY NO: 384 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00384', 'Richards PLC', '534 Hamilton Street Northeast', '', 'Washington', 'DC', '20011'
+);
+
+/* INSERT QUERY NO: 385 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00385', '"Smith', ' Ayala and West"', '3100 Don Juan Court', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 386 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00386', 'Simpson Inc', '325 Baxter Lane', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 387 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00387', 'Smith-Strickland', '314 Cherrywood Drive', '', 'Moore', 'OK', '73160'
+);
+
+/* INSERT QUERY NO: 388 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00388', 'Perez Ltd', '108 Chalmers Avenue', '', 'Glen Burnie', 'MD', '21061'
+);
+
+/* INSERT QUERY NO: 389 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00389', 'House PLC', '8 Chandler Street', '', 'Plymouth', 'MA', '02360'
+);
+
+/* INSERT QUERY NO: 390 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00390', 'Moore-Jensen', '33 Linscott Road', '', 'Hingham', 'MA', '02043'
+);
+
+/* INSERT QUERY NO: 391 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00391', 'Frazier-Butler', '7401 North 61st Drive', '', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 392 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00392', 'Rodriguez-Carpenter', '72 Milford Road', '', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 393 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00393', 'Williams-Obrien', '8820 Vaughn Road', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 394 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00394', 'Hart PLC', '1108 Slater Street', '', 'Santa Rosa', 'CA', '95404'
+);
+
+/* INSERT QUERY NO: 395 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00395', 'Mitchell-Dalton', '2732 North Ashbrook Drive', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 396 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00396', 'Holmes-Herrera', '6 Oak Street', '', 'Town of Rockingham', 'VT', '05101'
+);
+
+/* INSERT QUERY NO: 397 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00397', '"Fisher', ' Gonzales and Robbins"', '8101 Vaughn Road', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 398 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00398', 'Proctor-Schaefer', '2057 Lucas Street', '', 'Montgomery', 'AL', '36107'
+);
+
+/* INSERT QUERY NO: 399 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00399', 'Collins-Stone', '14006 Coffee Bluff Road', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 400 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00400', '"Ross', ' Ruiz and Smith"', '1528 Stafford Avenue', '', 'Hayward', 'CA'
+);
+
+/* INSERT QUERY NO: 401 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00401', '"Moore', ' Fisher and Cardenas"', '713 Millard Fuller Drive', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 402 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00402', 'Richardson-King', '3919 Landherr Drive', '', 'Louisville', 'KY', '40299'
+);
+
+/* INSERT QUERY NO: 403 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00403', 'Foster-Perry', '4300 Woodley Square', '', 'Montgomery', 'AL', '36116'
+);
+
+/* INSERT QUERY NO: 404 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00404', 'Ortiz-Tucker', '7737 Wynlakes Boulevard', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 405 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00405', '"Martinez', ' Pruitt and Murray"', '1422 North Dawn Drive', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 406 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00406', 'Lawson PLC', '1363 Dean Forest Road', '', 'Savannah', 'GA', '31405'
+);
+
+/* INSERT QUERY NO: 407 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00407', '"Wilson', ' Acosta and Chapman"', '21 Soling Avenue', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 408 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00408', 'Wright PLC', '4900 Cambridge Way', '', 'Anchorage', 'AK', '99503'
+);
+
+/* INSERT QUERY NO: 409 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00409', '"Simmons', ' Hall and Johnston"', '2040 Innes Circle', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 410 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00410', 'Fleming Group', '71 Racine Road', '', '', 'VT', '05468'
+);
+
+/* INSERT QUERY NO: 411 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00411', 'Strong-Curry', '6985 Woodstock Road', '', 'Hartford', 'VT', '05001'
+);
+
+/* INSERT QUERY NO: 412 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00412', 'Williams Ltd', '5119 Marla Drive', '', 'Panama City', 'FL', '32404'
+);
+
+/* INSERT QUERY NO: 413 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00413', 'Payne PLC', '5606 Olde Wadsworth Boulevard', '#20', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 414 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00414', 'Nelson and Sons', '19448 Currant Drive', '', 'Edmond', 'OK', '73012'
+);
+
+/* INSERT QUERY NO: 415 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00415', 'Wells Group', '640 Hilliard Street', '#6000', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 416 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00416', '"Contreras', ' Sanchez and Harris"', '42 West Louise Street', 'B', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 417 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00417', 'Wong-Meza', '133 White Cap Way', '', 'Panama City Beach', 'FL', '32407'
+);
+
+/* INSERT QUERY NO: 418 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00418', 'Fernandez Inc', '3823 Shannon Run Trail', '', 'Louisville', 'KY', '40299'
+);
+
+/* INSERT QUERY NO: 419 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00419', '"Garcia', ' Robles and Meza"', '882 Plantation Way', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 420 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00420', '"Miller', ' Duncan and Reynolds"', '40902 Ingersoll Terrace', '#APT 205', 'Fremont', 'CA'
+);
+
+/* INSERT QUERY NO: 421 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00421', 'Russo Inc', '2236 Susitna Drive', '', 'Anchorage', 'AK', '99517'
+);
+
+/* INSERT QUERY NO: 422 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00422', '"Martin', ' Cole and Williams"', '16896 West 85th Lane', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 423 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00423', '"Maynard', ' Foster and Rangel"', '3313 Daisy Trail', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 424 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00424', '"Hubbard', ' Brown and Lopez"', '3522 Whiting Avenue', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 425 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00425', 'Nguyen-Hess', '404 Summit Oaks Drive', '', 'Nashville', 'TN', '37221'
+);
+
+/* INSERT QUERY NO: 426 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00426', '"Hicks', ' Jackson and Perry"', '1422 North Dawn Drive', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 427 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00427', 'Jackson-Williams', '1612 Beech Street', '', 'Louisville', 'KY', '40211'
+);
+
+/* INSERT QUERY NO: 428 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00428', '"Carroll', ' Wheeler and Martinez"', '262 Mitchell Street', '', 'Groton', 'CT'
+);
+
+/* INSERT QUERY NO: 429 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00429', 'Mora-Rivas', '3189 Main Street', '#1', 'Mammoth Lakes', 'CA', '93546'
+);
+
+/* INSERT QUERY NO: 430 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00430', 'Salazar and Sons', '840 Inglewood Drive', '', 'West Sacramento', 'CA', '95605'
+);
+
+/* INSERT QUERY NO: 431 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00431', 'Campbell LLC', '720 East Muhammad Ali Boulevard', '', 'Louisville', 'KY', '40202'
+);
+
+/* INSERT QUERY NO: 432 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00432', '"Cohen', ' Johnson and Silva"', '103 North East Avenue', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 433 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00433', 'Sanchez PLC', '3141 North Lancaster Lane', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 434 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00434', '"Price', ' Rodriguez and Brown"', '240 Lynwood Drive', '', 'Montgomery', 'AL'
+);
+
+/* INSERT QUERY NO: 435 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00435', 'Wilson-Byrd', '6851 Howard Avenue', '', 'Anchorage', 'AK', '99504'
+);
+
+/* INSERT QUERY NO: 436 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00436', 'George-Hunt', '3770 North Front Street', '', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 437 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00437', 'Hanson Inc', '910 Arlington Terrace', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 438 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00438', 'Jordan-Gordon', '9545 West 74th Avenue', '', 'Arvada', 'CO', '80005'
+);
+
+/* INSERT QUERY NO: 439 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00439', 'Moran-Garcia', '5430 Brookdale Avenue', '', 'Oakland', 'CA', '94619'
+);
+
+/* INSERT QUERY NO: 440 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00440', '"Hawkins', ' Hansen and Gonzalez"', '188 Saint Matthews Avenue', '#1', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 441 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00441', 'Dunn LLC', '2755 Country Drive', '#244', 'Fremont', 'CA', '94536'
+);
+
+/* INSERT QUERY NO: 442 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00442', '"Johnson', ' Hoffman and Higgins"', '798 Airport Road', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 443 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00443', '"Nelson', ' Benson and Francis"', '6241 Hudson Creek Drive', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 444 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00444', '"Fox', ' Thomas and Huff"', '5 Westlund Avenue', '', 'Auburn', 'MA'
+);
+
+/* INSERT QUERY NO: 445 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00445', '"Bass', ' Garcia and Garcia"', '7025 Queen Street', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 446 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00446', 'Boyd-George', '2335 Orchard View Lane', '', 'Escondido', 'CA', '92027'
+);
+
+/* INSERT QUERY NO: 447 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00447', '"Johnson', ' Hernandez and Mcguire"', '361 Parmley Lane', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 448 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00448', 'Jackson and Sons', '12300 Apache Avenue', '#107', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 449 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00449', 'Daugherty Ltd', '1250 Pram Place', '', 'Annapolis', 'MD', '21403'
+);
+
+/* INSERT QUERY NO: 450 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00450', '"Green', ' Perry and Anderson"', '9223 Elgin Circle', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 451 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00451', '"Hicks', ' Patton and Cook"', '7229 Lewis Place', 'APT B', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 452 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00452', 'Gutierrez Ltd', '24020 Reese Road', '', 'Anchorage', 'AK', '99567'
+);
+
+/* INSERT QUERY NO: 453 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00453', 'Burton PLC', '1918 Spruce Street', '', 'Boulder', 'CO', '80302'
+);
+
+/* INSERT QUERY NO: 454 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00454', '"Irwin', ' Perez and Young"', '10763 West 54th Place', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 455 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00455', 'Miller PLC', '829 Dunbarton Road', '', 'Montgomery', 'AL', '36117'
+);
+
+/* INSERT QUERY NO: 456 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00456', '"Reyes', ' Joseph and Gutierrez"', '104 Bennington Street', '', 'Lawrence', 'MA'
+);
+
+/* INSERT QUERY NO: 457 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00457', 'Kramer and Sons', '7404 West Crest Lane', '', 'Glendale', 'AZ', '85310'
+);
+
+/* INSERT QUERY NO: 458 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00458', 'Anderson-Wilson', '22207 Quinterno Court', '', 'Cupertino', 'CA', '95014'
+);
+
+/* INSERT QUERY NO: 459 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00459', 'Smith Inc', '1852 Cherry Road', '', 'Annapolis', 'MD', '21409'
+);
+
+/* INSERT QUERY NO: 460 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00460', 'Hubbard Inc', '1823 Dinger Road', '', 'Annapolis', 'MD', '21402'
+);
+
+/* INSERT QUERY NO: 461 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00461', 'Phillips-Vega', '171 Tolland Turnpike', '', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 462 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00462', '"Gardner', ' May and Wallace"', '12816 West 65th Way', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 463 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00463', 'Perez-Rosario', '8262 Elvaton Road', '', 'Millersville', 'MD', '21108'
+);
+
+/* INSERT QUERY NO: 464 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00464', '"Spencer', ' Johnson and Blair"', '836 Lamont Street Northwest', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 465 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00465', 'Garcia PLC', '16896 West 85th Lane', '', 'Arvada', 'CO', '80007'
+);
+
+/* INSERT QUERY NO: 466 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00466', 'Wood Group', '1433 Bretton View Road', '', 'Annapolis', 'MD', '21409'
+);
+
+/* INSERT QUERY NO: 467 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00467', 'Elliott and Sons', '2057 Lucas Street', '', 'Montgomery', 'AL', '36107'
+);
+
+/* INSERT QUERY NO: 468 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00468', 'Hernandez Inc', '2464 Windham Hill Road', '', 'Townshend', 'VT', '05359'
+);
+
+/* INSERT QUERY NO: 469 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00469', '"Adams', ' Mcneil and Gray"', '12 Winter Street', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 470 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00470', 'Jackson-Nguyen', '1817 Beech Street', '', 'Louisville', 'KY', '40210'
+);
+
+/* INSERT QUERY NO: 471 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00471', '"Cordova', ' Taylor and Huber"', '81 Lyness Street', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 472 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00472', 'Evans-Scott', '4001 19th Place Northeast', '', 'Washington', 'DC', '20018'
+);
+
+/* INSERT QUERY NO: 473 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00473', 'Griffin Ltd', '2441 Chase Park Drive', '', 'Montgomery', 'AL', '36110'
+);
+
+/* INSERT QUERY NO: 474 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00474', '"Brown', ' Morris and Castro"', '1207 Branch Lane', '', 'Glen Burnie', 'MD'
+);
+
+/* INSERT QUERY NO: 475 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00475', 'Duncan-Marshall', '4714 Narrow Lane Road', '', 'Montgomery', 'AL', '36116'
+);
+
+/* INSERT QUERY NO: 476 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00476', 'Walker-Thornton', '10763 West 54th Place', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 477 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00477', 'Elliott-Brown', '1505 Rosewood Avenue', '#11', 'Louisville', 'KY', '40204'
+);
+
+/* INSERT QUERY NO: 478 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00478', '"Graham', ' Barrett and Cooper"', '123 Remember Baker Lane', '', 'Hartford', 'VT'
+);
+
+/* INSERT QUERY NO: 479 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00479', 'White-Mcintosh', '1205 Southwest 128th Street', '', 'Oklahoma City', 'OK', '73170'
+);
+
+/* INSERT QUERY NO: 480 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00480', 'Davis Ltd', '22538 6th Street', '', 'Hayward', 'CA', '94541'
+);
+
+/* INSERT QUERY NO: 481 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00481', 'King and Sons', '5408 Iris Street', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 482 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00482', 'Hardy Inc', '2732 Rosedale Place', '', 'Nashville', 'TN', '37211'
+);
+
+/* INSERT QUERY NO: 483 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00483', 'Palmer PLC', '14206 James Rees Way', '', 'Louisville', 'KY', '40299'
+);
+
+/* INSERT QUERY NO: 484 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00484', '"Ross', ' Palmer and Baker"', '5036 Jericho Street', '', 'Hartford', 'VT'
+);
+
+/* INSERT QUERY NO: 485 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00485', 'Sims and Sons', '5470 Atlanta Highway', '', 'Montgomery', 'AL', '36109'
+);
+
+/* INSERT QUERY NO: 486 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00486', 'Taylor-Price', '1521 159th Avenue', '', 'San Leandro', 'CA', '94578'
+);
+
+/* INSERT QUERY NO: 487 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00487', 'Mcgee and Sons', '5688 Johnson Court', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 488 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00488', 'Walker-Ingram', '4770 Balboa Way', '', 'Fremont', 'CA', '94536'
+);
+
+/* INSERT QUERY NO: 489 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00489', '"Young', ' Moore and Medina"', '883 Rodney Drive', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 490 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00490', '"Patton', ' Cole and Miller"', '1349 Burkhart Avenue', '', 'San Leandro', 'CA'
+);
+
+/* INSERT QUERY NO: 491 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00491', '"Powell', ' Chavez and Phelps"', '903 East 20th Avenue', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 492 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00492', 'Hunter PLC', '908 Lodge Hill Road', '', 'Louisville', 'KY', '40223'
+);
+
+/* INSERT QUERY NO: 493 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00493', '"Rojas', ' Brown and Floyd"', '10340 West 62nd Place', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 494 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00494', 'Riley PLC', '2715 Thornbrook Court', '', 'Odenton', 'MD', '21113'
+);
+
+/* INSERT QUERY NO: 495 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00495', 'Rosario-Smith', '401 East Northern Lights Boulevard', '#STE 000203', 'Anchorage', 'AK', '99503'
+);
+
+/* INSERT QUERY NO: 496 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00496', 'Hunter-Estrada', '4667 Benning Road Southeast', '', 'Washington', 'DC', '20019'
+);
+
+/* INSERT QUERY NO: 497 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00497', 'Anderson Inc', '6208 Ingalls Street', '', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 498 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00498', 'Smith-Clark', '2121 Stepping Stone Trail', '', 'Edmond', 'OK', '73013'
+);
+
+/* INSERT QUERY NO: 499 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00499', '"Green', ' Hernandez and Conley"', '4 Eastview Lane', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 500 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00500', 'Galloway and Sons', '9904 Daniel Drive', '', 'Louisville', 'KY', '40118'
+);
+
+/* INSERT QUERY NO: 501 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00501', '"Mcclain', ' Davenport and Williams"', '4296 North Blossom Court', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 502 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00502', 'Wilson-Torres', '8409 Gullane Court', '', 'Pasadena', 'MD', '21122'
+);
+
+/* INSERT QUERY NO: 503 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00503', 'Williams Inc', '26 Wetherell Street', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 504 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00504', 'Hill LLC', '8467 Chase Drive', '', 'Arvada', 'CO', '80003'
+);
+
+/* INSERT QUERY NO: 505 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00505', 'Shaw-Guzman', '153 Atlantic Avenue', '#6', 'Salisbury', 'MA', '01952'
+);
+
+/* INSERT QUERY NO: 506 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00506', 'Brown-Morris', '39247 Sundale Drive', '', 'Fremont', 'CA', '94538'
+);
+
+/* INSERT QUERY NO: 507 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00507', 'Green-Anderson', '1734 Tamarack Street Northwest', '', 'Washington', 'DC', '20012'
+);
+
+/* INSERT QUERY NO: 508 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00508', '"Conway', ' Meyer and White"', '11300 Lillian Lane', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 509 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00509', 'Barnes-Fox', '95 Briarwood Drive', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 510 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00510', 'Morton Ltd', '13531 West 72nd Drive', '', 'Arvada', 'CO', '80005'
+);
+
+/* INSERT QUERY NO: 511 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00511', '"Miller', ' Williams and Mcgee"', '6160 Norm Drive', '', 'Anchorage', 'AK'
+);
+
+/* INSERT QUERY NO: 512 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00512', 'Petersen Ltd', '96 Green Manor Road', '', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 513 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00513', '"Cooper', ' Nielsen and Vasquez"', '5116 Feys Court', '', 'Louisville', 'KY'
+);
+
+/* INSERT QUERY NO: 514 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00514', 'Smith Group', '14 Short Circle', '', 'Conway', 'AR', '72032'
+);
+
+/* INSERT QUERY NO: 515 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00515', 'Brown LLC', '1770 Colony Way', '', 'Fayetteville', 'AR', '72704'
+);
+
+/* INSERT QUERY NO: 516 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00516', 'Brown-Blake', '8 Watkins Road', '', '', 'VT', '05468'
+);
+
+/* INSERT QUERY NO: 517 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00517', 'Zimmerman-Ortega', '159 Downey Drive', 'A', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 518 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00518', '"Gomez', ' Griffin and Davis"', '2928 Avon Road', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 519 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00519', '"Luna', ' Meyer and Lopez"', '22572 Toreador Drive', '', 'Salinas', 'CA'
+);
+
+/* INSERT QUERY NO: 520 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00520', '"Kane', ' Beard and Cox"', '6754 Field Street', '', 'Arvada', 'CO'
+);
+
+/* INSERT QUERY NO: 521 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00521', '"Gordon', ' Young and Webster"', '82 Queen Court', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 522 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00522', 'Moore-Elliott', '6444 North 67th Avenue', '#1081', 'Glendale', 'AZ', '85301'
+);
+
+/* INSERT QUERY NO: 523 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00523', 'Baker Ltd', '1123 Ardee Avenue', '', 'Nashville', 'TN', '37216'
+);
+
+/* INSERT QUERY NO: 524 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00524', 'Ayala PLC', '52 Linnmore Drive', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 525 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00525', 'Irwin-Frank', '5936 North 80th Drive', '', 'Glendale', 'AZ', '85303'
+);
+
+/* INSERT QUERY NO: 526 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00526', '"Weber', ' Wilson and Nelson"', '307 Joel Street', '', 'Pooler', 'GA'
+);
+
+/* INSERT QUERY NO: 527 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00527', '"Gardner', ' Hendricks and Peterson"', '2928 Avon Road', '', 'Panama City', 'FL'
+);
+
+/* INSERT QUERY NO: 528 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00528', 'Walsh PLC', '12403 Deerfield Road', '', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 529 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00529', 'Brooks-Henry', '8391 West 52nd Avenue', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 530 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00530', 'Wilson-Rowland', '17361 Baronoff Avenue', '', 'Anchorage', 'AK', '99577'
+);
+
+/* INSERT QUERY NO: 531 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00531', '"Cole', ' Kim and Silva"', '12403 Deerfield Road', '', 'Savannah', 'GA'
+);
+
+/* INSERT QUERY NO: 532 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00532', '"Duffy', ' Martinez and Jones"', '19020 North 68th Avenue', '', 'Glendale', 'AZ'
+);
+
+/* INSERT QUERY NO: 533 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00533', 'Harris Ltd', '195 Nursery Street', '#D10', 'Springfield', 'MA', '01104'
+);
+
+/* INSERT QUERY NO: 534 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00534', 'Barnett LLC', '1718 Underwood Road', '', 'Gambrills', 'MD', '21054'
+);
+
+/* INSERT QUERY NO: 535 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00535', 'French and Sons', '2399 East 14th Street', '#29', 'San Leandro', 'CA', '94577'
+);
+
+/* INSERT QUERY NO: 536 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00536', 'Hicks-Moore', '14 6th Street', '#1', 'Medford', 'MA', '02155'
+);
+
+/* INSERT QUERY NO: 537 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00537', '"Johnson', ' Hurst and Mendoza"', '16133 Hillsborough Boulevard', '', 'Port Charlotte', 'FL'
+);
+
+/* INSERT QUERY NO: 538 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00538', 'Johnson LLC', '5708 West Union Hills Drive', '', 'Glendale', 'AZ', '85308'
+);
+
+/* INSERT QUERY NO: 539 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00539', 'Anderson Inc', '35 Pilot Knob Lane', '#204', 'Telluride', 'CO', '81435'
+);
+
+/* INSERT QUERY NO: 540 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00540', '"Fuller', ' Smith and Black"', '324 Martin Luther King Junior Boulevard', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 541 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00541', 'Robinson-Hernandez', '3704 Hughes Road', '', 'Louisville', 'KY', '40207'
+);
+
+/* INSERT QUERY NO: 542 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00542', '"Boyd', ' Dickerson and White"', '24647 Patricia Court', '', 'Hayward', 'CA'
+);
+
+/* INSERT QUERY NO: 543 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00543', 'Adams-Johnson', '642 South 2nd Street', '#608', 'Louisville', 'KY', '40202'
+);
+
+/* INSERT QUERY NO: 544 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00544', '"Miller', ' Jensen and Bridges"', '2008 Aberdeen Drive', '', 'Crofton', 'MD'
+);
+
+/* INSERT QUERY NO: 545 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00545', 'Myers-Brown', '7703 Aragorn Court', '', 'Hanover', 'MD', '21076'
+);
+
+/* INSERT QUERY NO: 546 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00546', 'Peterson-Mayo', '3604 Ridgehaven Drive', '', 'Midwest City', 'OK', '73110'
+);
+
+/* INSERT QUERY NO: 547 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00547', 'Potter Inc', '4604 Virginia Loop Road', '', 'Montgomery', 'AL', '36116'
+);
+
+/* INSERT QUERY NO: 548 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00548', 'Ellis-Weiss', '108 Croft Drive', 'R', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 549 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00549', '"Richardson', ' Bates and Olson"', '1304 Northern Hills Road', '', 'Norman', 'OK'
+);
+
+/* INSERT QUERY NO: 550 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00550', '"Thompson', ' Robertson and Berry"', '7 Vantine Avenue', '', 'Alburgh', 'VT'
+);
+
+/* INSERT QUERY NO: 551 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00551', '"Jones', ' Roberts and Mullen"', '6620 North 61st Drive', '', 'Glendale', 'AZ'
+);
+
+/* INSERT QUERY NO: 552 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00552', 'Young-Marshall', '152 Teddy Drive', '', 'Union City', 'CA', '94587'
+);
+
+/* INSERT QUERY NO: 553 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00553', '"Cooper', ' Lopez and Jones"', '16020 North 69th Avenue', '', 'Peoria', 'AZ'
+);
+
+/* INSERT QUERY NO: 554 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00554', 'Downs-Kramer', '5118 Augusta Road', '', 'Garden City', 'GA', '31408'
+);
+
+/* INSERT QUERY NO: 555 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00555', 'Garcia PLC', '10819 Bluegrass Parkway', '', 'Jeffersontown', 'KY', '40299'
+);
+
+/* INSERT QUERY NO: 556 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00556', 'Ramsey Inc', '3114 West 20th Court', '', 'Panama City', 'FL', '32405'
+);
+
+/* INSERT QUERY NO: 557 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00557', 'Bridges and Sons', '3325 Dix Street Northeast', '', 'Washington', 'DC', '20019'
+);
+
+/* INSERT QUERY NO: 558 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00558', '"Armstrong', ' Hancock and Miller"', '4695 East Huntsville Road', '', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 559 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00559', '"Singleton', ' Jones and Long"', '210 Long Hill Court', '', 'Pasadena', 'MD'
+);
+
+/* INSERT QUERY NO: 560 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00560', 'Brown Group', '6950 Reno Drive', '', 'Arvada', 'CO', '80002'
+);
+
+/* INSERT QUERY NO: 561 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00561', 'Romero-Williams', '600 West North Street', '#D2', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 562 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00562', 'Stephens Group', '8716 Astrid Avenue', '', 'Louisville', 'KY', '40228'
+);
+
+/* INSERT QUERY NO: 563 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00563', '"Ewing', ' Hudson and Davis"', '31770 Alvarado Boulevard', '#102', 'Union City', 'CA'
+);
+
+/* INSERT QUERY NO: 564 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00564', '"Trujillo', ' Jones and Sloan"', '1508 Massachusetts Avenue Southeast', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 565 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00565', 'Ochoa and Sons', '111 Rosemary Street', '', 'Brockton', 'MA', '02302'
+);
+
+/* INSERT QUERY NO: 566 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00566', 'Benson-Hayes', '33655 5th Street', '', 'Union City', 'CA', '94587'
+);
+
+/* INSERT QUERY NO: 567 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00567', '"Herrera', ' Wade and Vega"', '429 Patterson Street', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 568 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00568', '"Green', ' Allen and Collins"', '14 Huntington Street', '', 'Manchester', 'CT'
+);
+
+/* INSERT QUERY NO: 569 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00569', 'Miller-Allen', '52 Park Street', 'D', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 570 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00570', '"Norman', ' Gardner and Noble"', '2464 Windham Hill Road', '', 'Townshend', 'VT'
+);
+
+/* INSERT QUERY NO: 571 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00571', 'James PLC', '7905 Old Heady Road', '', 'Louisville', 'KY', '40299'
+);
+
+/* INSERT QUERY NO: 572 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00572', '"Russell', ' Kelley and Soto"', '435 Porter Lake Drive', '#187', 'Springfield', 'MA'
+);
+
+/* INSERT QUERY NO: 573 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00573', 'Simpson Group', '2307 East 72nd Avenue', '', 'Anchorage', 'AK', '99507'
+);
+
+/* INSERT QUERY NO: 574 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00574', 'Warren Inc', '396 Hartford Road', 'B', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 575 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00575', 'Buck-Tran', '56 Channing Drive', '', 'Manchester', 'CT', '06040'
+);
+
+/* INSERT QUERY NO: 576 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00576', '"Barnes', ' Moore and Morris"', '2375 South School Avenue', '#5', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 577 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00577', '"Smith', ' Simmons and Perez"', '314 South 17th Street', '', 'Nashville', 'TN'
+);
+
+/* INSERT QUERY NO: 578 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00578', 'Hoover-Murray', '10927 West 59th Avenue', '', 'Arvada', 'CO', '80004'
+);
+
+/* INSERT QUERY NO: 579 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00579', 'Bullock-Flores', '540 East Appleby Road', '#105', 'Fayetteville', 'AR', '72703'
+);
+
+/* INSERT QUERY NO: 580 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00580', 'Dennis LLC', '511 Norton Avenue', '', 'Nashville', 'TN', '37207'
+);
+
+/* INSERT QUERY NO: 581 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00581', '"Cooper', ' Jones and Maldonado"', '735 West Treadwell Street', '#33', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 582 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00582', 'Richards and Sons', '416 Ridge Street Northwest', '', 'Washington', 'DC', '20001'
+);
+
+/* INSERT QUERY NO: 583 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00583', 'Powers-Burgess', '827 10th Street Northeast', '', 'Washington', 'DC', '20002'
+);
+
+/* INSERT QUERY NO: 584 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00584', '"Garrett', ' Wagner and Edwards"', '3604 Ridgehaven Drive', '', 'Midwest City', 'OK'
+);
+
+/* INSERT QUERY NO: 585 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00585', 'Solomon Ltd', '1835 Pointer Lane', '', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 586 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00586', 'Stewart-Pierce', '95 Central Street', 'A', 'Springfield', 'MA', '01105'
+);
+
+/* INSERT QUERY NO: 587 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00587', 'Brown-Cook', '5102 Ander Drive', '', 'Brentwood', 'TN', '37027'
+);
+
+/* INSERT QUERY NO: 588 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00588', 'Jenkins Group', '1217 Bay Street', '#318-A', 'Tybee Island', 'GA', '31328'
+);
+
+/* INSERT QUERY NO: 589 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00589', 'Mercer-Stuart', '420 Cove Villa Street', '', 'Panama City Beach', 'FL', '32407'
+);
+
+/* INSERT QUERY NO: 590 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00590', 'Riley-Kelly', '640 Hilliard Street', '#6000', 'Manchester', 'CT', '06042'
+);
+
+/* INSERT QUERY NO: 591 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00591', 'Hoffman-Roberts', '3228 Chettenham Drive', '', 'Rancho Cordova', 'CA', '95670'
+);
+
+/* INSERT QUERY NO: 592 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00592', '"Morales', ' Campbell and Washington"', '42 West Louise Street', 'B', 'Fayetteville', 'AR'
+);
+
+/* INSERT QUERY NO: 593 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00593', 'Walter Group', '7911 Deronia Avenue', '', 'Louisville', 'KY', '40222'
+);
+
+/* INSERT QUERY NO: 594 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00594', 'Stewart-Bennett', '12300 Apache Avenue', '#107', 'Savannah', 'GA', '31419'
+);
+
+/* INSERT QUERY NO: 595 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00595', '"Hutchinson', ' Matthews and Wilcox"', '1318 4th Street Southwest', '', 'Washington', 'DC'
+);
+
+/* INSERT QUERY NO: 596 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00596', 'Rhodes-Mendez', '1689 Fisher Pond Road', '', 'Saint Albans City', 'VT', '05478'
+);
+
+/* INSERT QUERY NO: 597 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00597', 'Ortiz-Donovan', '140 South Hill Avenue', '#305', 'Fayetteville', 'AR', '72701'
+);
+
+/* INSERT QUERY NO: 598 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00598', '"Newton', ' Hodges and Henry"', '32512 Christine Drive', '', 'Union City', 'CA'
+);
+
+/* INSERT QUERY NO: 599 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00599', 'Reeves-Leonard', '12420 West Montebello Avenue', '', 'Litchfield Park', 'AZ', '85340'
+);
+
+/* INSERT QUERY NO: 600 */
+INSERT INTO vendor_data(VENDOR_ID, VENDOR_NAME, ADDRESS_LINE1, ADDRESS_LINE2, CITY, STATE, POSTAL_CODE)
+VALUES
+(
+'VNDR00600', '"Jacobs', ' Fox and Torres"', '2426 East Onyx Trail', '#6', 'Fayetteville', 'AR'
+);
+
